@@ -29,7 +29,7 @@ warnings.filterwarnings('ignore')
 """# **Load the Dataset**"""
 
 # Load the dataset into a dataframe
-Customer_Outcomes_Dataset = pd.read_csv("/content/dataset.csv", encoding='latin1')
+Customer_Outcomes_Dataset = pd.read_csv("dataset.csv", encoding='latin1')
 
 # Display first few rows to understand the data
 print(Customer_Outcomes_Dataset.head())
